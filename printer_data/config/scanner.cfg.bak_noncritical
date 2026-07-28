@@ -1,5 +1,4 @@
 [mcu cartographer] # See https://www.klipper3d.org/Config_Reference.html#mcu
-is_non_critical: True
 serial: /dev/serial/by-id/usb-Cartographer_stm32g431xx_3E0056000650303448383620-if00
 restart_method: command
 #canbus_uuid: 27bd3de09896 
