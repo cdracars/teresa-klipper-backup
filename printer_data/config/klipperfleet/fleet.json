@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Host (usb-Klipper_stm32f446xx_170010000350534E4E313020-if00)",
+        "id": "/dev/serial/by-id/usb-Klipper_stm32f446xx_170010000350534E4E313020-if00",
+        "profile": "host_mcu",
+        "method": "serial",
+        "interface": "can0",
+        "notes": "",
+        "is_katapult": true,
+        "is_bridge": false,
+        "dfu_id": null,
+        "magic_baud_tested": false,
+        "use_magic_baud": false,
+        "dfu_exit_tested": false,
+        "use_dfu_exit": false
+    },
+    {
+        "name": "EBBcan",
+        "id": "c3eeda3755ac",
+        "profile": "thb_mcu",
+        "method": "can",
+        "interface": "can0",
+        "notes": "",
+        "is_katapult": true,
+        "is_bridge": false,
+        "dfu_id": null,
+        "magic_baud_tested": false,
+        "use_magic_baud": false,
+        "dfu_exit_tested": false,
+        "use_dfu_exit": false
+    },
+    {
+        "name": "BT582",
+        "id": "5e2f7706968e",
+        "profile": "bt582_mcu",
+        "method": "can",
+        "interface": "can0",
+        "notes": "",
+        "is_katapult": true,
+        "is_bridge": false,
+        "dfu_id": null,
+        "magic_baud_tested": false,
+        "use_magic_baud": false,
+        "dfu_exit_tested": false,
+        "use_dfu_exit": false
+    }
+]
