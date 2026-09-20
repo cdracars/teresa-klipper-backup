@@ -44,7 +44,7 @@
             "current_map": "T0",
             "load": true,
             "prep": true,
-            "tool_loaded": true,
+            "tool_loaded": false,
             "loaded_to_hub": true,
             "material": "pla",
             "density": 1.24,
@@ -54,13 +54,13 @@
             "remember_spool": false,
             "spool_id": null,
             "color": "",
-            "weight": 891.5880675548777,
+            "weight": 879.942252628471,
             "extruder_temp": 0.0,
             "bed_temp": 0.0,
             "runout_lane": "lane3",
-            "filament_status": "In Tool",
-            "filament_status_led": "#0000ff",
-            "status": "Tooled",
+            "filament_status": "Ready",
+            "filament_status_led": "#00cc00",
+            "status": "None",
             "dist_hub": 99.93,
             "td1_data": {}
         },
@@ -76,7 +76,7 @@
             "current_map": "T1",
             "load": true,
             "prep": true,
-            "tool_loaded": false,
+            "tool_loaded": true,
             "loaded_to_hub": true,
             "material": "pla",
             "density": 1.24,
@@ -86,13 +86,13 @@
             "remember_spool": false,
             "spool_id": null,
             "color": "",
-            "weight": 979.1844586704742,
+            "weight": 978.5508873775506,
             "extruder_temp": 0.0,
             "bed_temp": 0.0,
             "runout_lane": null,
-            "filament_status": "Ready",
-            "filament_status_led": "#00cc00",
-            "status": "Loaded",
+            "filament_status": "In Tool",
+            "filament_status_led": "#0000ff",
+            "status": "Tooled",
             "dist_hub": 98.45,
             "td1_data": {}
         },
@@ -130,13 +130,13 @@
         }
     },
     "system": {
-        "current_load": "lane2",
+        "current_load": "lane3",
         "num_units": 1,
         "num_lanes": 4,
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": "lane2"
+                "lane_loaded": "lane3"
             }
         },
         "bypass": {
