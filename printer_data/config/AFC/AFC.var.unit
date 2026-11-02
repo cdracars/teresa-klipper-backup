@@ -60,7 +60,7 @@
             "runout_lane": "lane3",
             "filament_status": "Prep",
             "filament_status_led": "#ffffff",
-            "status": "None",
+            "status": "Error",
             "dist_hub": 99.93,
             "td1_data": {}
         },
@@ -124,7 +124,7 @@
             "runout_lane": "lane1",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "None",
+            "status": "Tool Loading",
             "dist_hub": 160.01,
             "td1_data": {}
         }
